@@ -4,7 +4,7 @@ import '../../css/Header/Header.css'
 
 function Header() {
     return (
-        <div class="header">
+        <div className="header">
             {words.headerTitle}
         </div>
     )

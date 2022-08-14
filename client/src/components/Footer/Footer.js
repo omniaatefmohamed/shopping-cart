@@ -4,7 +4,7 @@ import '../../css/Footer/Footer.css'
 
 function Footer() {
     return (
-        <div class="footer">{words.footerTitle}</div>
+        <div className="footer">{words.footerTitle}</div>
     )
 }
 

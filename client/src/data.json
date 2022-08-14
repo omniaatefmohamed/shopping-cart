@@ -1,0 +1,44 @@
+[
+    {
+        "id" : 1,
+        "name":"blouse1",
+        "imageurl":"./images/image1.png",
+        "price":300,
+        "sizes":["s","M"]
+    },    
+    {
+        "id" : 2,
+        "name":"blouse2",
+        "imageurl":"./images/image2.png",
+        "price":200,
+        "sizes":["m","l"]
+    },
+   {
+        "id" : 3,
+        "name":"blouse3",
+        "imageurl":"./images/image3.png",
+        "price":150,
+        "sizes":["l","xl"]
+    },   
+    {
+        "id" : 4,
+        "name":"blouse1",
+        "imageurl":"./images/image1.png",
+        "price":300,
+        "sizes":["s","M"]
+    },    
+    {
+        "id" : 5,
+        "name":"blouse2",
+        "imageurl":"./images/image2.png",
+        "price":200,
+        "sizes":["m","l"]
+    },
+   {
+        "id" : 6,
+        "name":"blouse3",
+        "imageurl":"./images/image3.png",
+        "price":150,
+        "sizes":["l","xl"]
+    }
+]
