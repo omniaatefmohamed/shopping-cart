@@ -1,10 +1,11 @@
 import React from 'react'
+import { words } from './../../static-data';
 import '../../css/Header/Header.css'
 
 function Header() {
     return (
         <div class="header">
-            Shopping Cart
+            {words.headerTitle}
         </div>
     )
 }
