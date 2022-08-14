@@ -1,13 +1,11 @@
 img {
   width: 100%;
-  height: 550px;
+  height: 350px;
 }
-
 .Products button.btn {
   background-color: rgb(219, 76, 8);
   color: #fff;
 }
-
-.Products button.btn:hover {
+.Products button.btn .Products button.btn:hover {
   background-color: rgba(219, 76, 8, 0.7);
 }
