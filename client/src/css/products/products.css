@@ -1,15 +1,12 @@
 img {
   width: 100%;
-  height: 550px;
+  height: 350px;
 }
 
-.Products button {
-  background-color: #db4c08;
+.Products button.btn {
+  background-color: rgb(219, 76, 8);
   color: #fff;
-  border:none
 }
-.Products button.btn:hover{
-  background-color:rgba(219,76,8,0.9);
-  border:none;
-  color:#fff
+.Products button.btn .Products button.btn:hover {
+  background-color: rgba(219, 76, 8, 0.7);
 }

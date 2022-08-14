@@ -6,7 +6,7 @@ import './../../css/products/products.css'
     <div className='Products'>
       <div className="row container">
          {props.products.map(product => (
-          <div class=" col-lg-4 col-md-6 col-12">
+          <div class=" col-lg-3 col-md-6 col-12">
               <div className='product-box border my-4' key={product.id}>
                   <img src={product.imageurl} alt={product.name}/>
                   <div className='row align-items-center p-3 justify-content-center'>
