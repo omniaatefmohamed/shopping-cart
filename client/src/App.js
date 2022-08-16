@@ -8,14 +8,13 @@ import './App.css';
 
 function App() {
   const [products,setProducts] = useState(data)
-  console.log(products)
   return (
     <div className="App">
       <Header />
       <div className='main-content'>
           <Products products={products}/>
       </div>
-     <Footer />
+      <Footer />
     </div>
   );
 }
