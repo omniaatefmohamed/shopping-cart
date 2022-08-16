@@ -7,6 +7,26 @@ img {
   background-color: rgb(219, 76, 8);
   color: #fff;
 }
-.Products button.btn .Products button.btn:hover {
+.Products .Products button.btn:hover {
   background-color: rgba(219, 76, 8, 0.7);
+}
+
+.ReactModal__Content {
+  width: 40%;
+  display: block;
+  margin: auto;
+  height: 737px;
+}
+.ReactModal__Content img {
+  height: 600px;
+  margin-top: 30px;
+}
+.ReactModal__Content .close-btn {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
 }
