@@ -1,0 +1,11 @@
+.wraper-filter {
+    h1 {
+        background-color: #db4c08;
+        color: #fff;
+    }
+
+    select:focus {
+        box-shadow: none;
+        border-color: #db4c08
+    }
+}
