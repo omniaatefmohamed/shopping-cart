@@ -11,6 +11,7 @@ function Filter(props) {
                     <p className="col-md-2 col-4 mb-0 fw-bold">Size</p>
                     <div className=' col-md-10 col-8'>
                         <select value={props.size} className='form-control' onChange={props.handleSetSize}>
+                            <option value="ALL">ALL</option>
                             <option value="XS">XS</option>
                             <option value="S">S</option>
                             <option value="M">M</option>
@@ -24,6 +25,7 @@ function Filter(props) {
                     <p className='col-md-2 col-4 mb-0 fw-bold'>Filter By</p>
                     <div className='col-md-10 col-8'>
                         <select valuw={props.sort} className='form-control' onChange={props.handleSetSort}>
+                            <option value="choose">Sort By Price</option>
                             <option value="High-price">Higher Price</option>
                             <option value="low-price">Lower Price</option>
                         </select>
