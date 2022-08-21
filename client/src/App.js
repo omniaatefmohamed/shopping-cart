@@ -13,14 +13,33 @@ function App() {
   const [size, setSize] = useState();
 
   const handleSetSort = (e) => {
-    setSort(e.target.value)
+    let order = e.target.value;
+    setSort(order);
+    let productsList = [...products];
+    let newProducts = productsList.sort(function (a, b) {
+      if (order == "low-price") {
+        return a.price - b.price
+      } else if (order == "High-price") {
+        return b.price - a.price
+      } else {
+        return a.id < b.id ? 1 : -1
+      }
+    });
+    setProducts(newProducts)
   }
 
   const handleSetSize = (e) => {
-    setSize(e.target.value)
-    let productsList = [...products]
-    productsList.filter(p => p.sizes.indexOf())
+    setSize(e.target.value);
+    if (e.target.value == "ALL") {
+      setProducts(products);
+    } else {
+      let productsList = [...products];
+      let newProducts = productsList.filter(p => p.sizes.indexOf(e.target.value) != -1);
+      console.log("new products", newProducts);
+      setProducts(newProducts);
+    }
   }
+
   return (
     <div className="App">
       <Header />
