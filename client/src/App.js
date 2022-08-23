@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-
 import Products from './components/Products/Products'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import data from './data.json'
 import './App.css';
 import Filter from './components/Filter/Filter'
+import Cart from './components/Cart/Cart'
 
 function App() {
   const [products, setProducts] = useState(data);
@@ -47,10 +47,11 @@ function App() {
         <div className='main-content'>
           <div className='row'>
             <Products products={products} />
-            <Filter handleSetSort={handleSetSort} handleSetSize={handleSetSize} size={size} sort={sort} />
+            <Filter handleSetSort={handleSetSort} handleSetSize={handleSetSize} size={size} sort={sort} productsNumbers={products.length} />
           </div>
         </div>
       </div>
+      <Cart products={products} />
       <Footer />
     </div>
   );
