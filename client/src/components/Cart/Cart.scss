@@ -1,0 +1,22 @@
+.cart-item h2{
+    font-size:30px;
+    font-weight:bold;
+}
+.cart-item img{
+    width: 127px;
+    height: 127px;
+    margin-right:20px
+}
+.data-cart{
+    flex:1
+}
+button{
+    border: 1px solid #db4c08;
+    background-color: transparent;
+    color: #db4c08;
+    margin-right: 20px;
+}
+.cart-item{
+    margin-bottom:13px;
+    box-shadow: 3px 3px 5px #c0c0c0;
+}
