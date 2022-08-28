@@ -39,7 +39,6 @@ function App() {
       setProducts(newProducts);
     }
   }
-
   return (
     <div className="App">
       <Header />
@@ -51,7 +50,7 @@ function App() {
           </div>
         </div>
       </div>
-      <Cart products={products} />
+      <Cart productsNumbers={products.length} products={products}/>
       <Footer />
     </div>
   );
